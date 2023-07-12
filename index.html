@@ -13,6 +13,17 @@
         <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
 
         <link rel="stylesheet" href="style.css">
+        <script type="text/javascript">
+          !function(q,g,r,a,p,h,js) {
+            if(q.appier||q.qg)return;
+            js = q.qg = q.appier = function() {
+              js.callmethod ? js.callmethod.call(js, arguments) : js.queue.push(arguments);
+            };
+            js.queue = [];
+            p=g.createElement(r);p.async=!0;p.src=a;h=g.getElementsByTagName(r)[0];
+            h.parentNode.insertBefore(p,h);
+          } (window,document,'script','https://cdn.qgr.ph/qgraph.b35629a5769575539a2b.js');
+        </script>
     </head>
 
     <body>
@@ -60,9 +71,19 @@
                     <ul class="p-2">
                         <li>Price</li>
                         <li>Description</li>
+                        <li>
+                        <button onclick="Geeks()">
+                          Buy Me!
+                        </button>
+                        <p id="result"></p>
+                        </li>
                     </ul>
                     </div>
                 </div>
+
+                <h2 class="Second_heading">
+                  DOM getAttributeNode() Method
+              </h2>
 
                 <div class="col-md-4 p-2">
                     <div class="card card-ac p-2">
@@ -93,7 +114,7 @@
             </div>
           </main>
 
-
+        <script src="main.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
             integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG"
             crossorigin="anonymous"></script>
